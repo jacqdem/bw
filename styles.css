@@ -115,6 +115,9 @@ text-orientation: upright;
   background-color: var(--color-four);
 }
 
+.img {
+  height: 5rem;
+}
 
 /* footer desktop AND mobile */
 
