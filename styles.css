@@ -47,6 +47,7 @@ h5 {
 h6 {
   color: var(--color-five);
     font-family: 'Yeseva One', serif;
+  font-size: .75rem;
 }
 
 a {
