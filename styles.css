@@ -121,6 +121,14 @@ text-orientation: upright;
 
 /* footer desktop AND mobile */
 
+.footer-mobile {
+  background-color: var(--color-one);
+}
+  
+.footer-desktop {
+  background-color: var(--color-one);
+}
+
 i {
   padding: 2rem;
   font-size: 2rem;
