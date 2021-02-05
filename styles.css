@@ -1,0 +1,219 @@
+/* global elements */
+body {
+  background-color: var(--color-one);
+}
+
+.entire-site {
+  width: 100vw
+}
+
+.theme-light {
+  --color-one: #c8c8c8;
+  --color-two: #e8e8e8;
+  --color-three: #f5f5f5;
+  --color-four: #ffffff;
+  --color-five: #404040;
+}
+
+.theme-dark {
+  --color-one: #000000;
+  --color-two: #202020;
+  --color-three: #303030;
+  --color-four: #404040;
+  --color-five: #d3d3d3;
+}
+
+p {
+  color: var(--color-five);
+  font-family: 'Baloo 2', sans-serif;
+}
+
+h1 {
+  color: var(--color-five);
+  font-family: 'Yeseva One', serif;
+}
+h2 {
+  color: var(--color-five);
+    font-family: 'Yeseva One', serif;
+}
+h3 {
+  color: var(--color-five);
+    font-family: 'Yeseva One', serif;
+}
+h4 {
+  color: var(--color-five);
+    font-family: 'Yeseva One', serif;
+}
+h5 {
+  color: var(--color-five);
+    font-family: 'Yeseva One', serif;
+}
+h6 {
+  color: var(--color-five);
+    font-family: 'Yeseva One', serif;
+}
+
+a {
+  color: var(--color-five);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-three);
+  text-decoration: none;
+}
+
+/* navigation column */
+.navigation {
+  background-color: transparent;
+  position: fixed;
+  z-index: 1;
+}
+
+.brand {
+  color: var(--color-five);
+  text-decoration: none;
+  font-size: 2rem;
+    font-family: 'Yeseva One', serif;
+}
+
+.brand:hover {
+  color: grey;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.brand-vertical {
+  color: var(--color-five);
+  text-decoration: none;
+  font-size: 2rem;
+    font-family: 'Yeseva One', serif;
+  writing-mode: vertical-rl;
+text-orientation: upright;
+}
+
+.nav-link {
+  color: var(--color-five);
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-family: 'Baloo 2', sans-serif;
+}
+
+.nav-link:hover {
+  color: grey;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+/* main column */
+/* one container */
+.one {
+  background-color: var(--color-two);
+}
+
+/* two container */
+.two {
+  background-color: var(--color-three);
+}
+
+/* three container */
+.three {
+  background-color: var(--color-four);
+}
+
+
+/* footer desktop AND mobile */
+
+i {
+  padding: 2rem;
+  font-size: 2rem;
+  color: var(--color-five);
+}
+
+.footer-info {
+  font-size: .75rem;
+  color: var(--color-five);
+}
+
+.footer-link {
+  font-size: .75rem;
+}
+
+.footer-desktop {
+  background-color: transparent;
+}
+
+
+
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 2.5rem;
+  height: 1rem;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #404040;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 1.3rem;
+  width: 1.3rem;
+  left: 0;
+  bottom: 1rem;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  box-shadow: 0 0 0 0 #2020203d;
+  background: white;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+input:checked+.slider {
+  background-color: #404040;
+}
+
+input:focus+.slider {
+  box-shadow: 0 0 0 #2196f3;
+}
+
+input:checked+.slider:before {
+  -webkit-transform: translateX(24px);
+  -ms-transform: translateX(24px);
+  transform: translateX(24px);
+  background: white;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
